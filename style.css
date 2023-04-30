@@ -1,0 +1,24 @@
+:root {
+    color-scheme: dark;
+    font: 500 1rem/1 Inter, sans-serif;
+}
+body { margin: 0 }
+.pad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    align-items: center;
+    aspect-ratio: 1;
+    padding: 1rem;
+    margin-inline: auto;
+    max-height: min(calc(100vh - 2rem), 800px);
+    max-width: min(calc(100vw - 2rem), 800px);
+}
+.pad > button {
+    aspect-ratio: 1;
+    padding: 0;
+}
+.file-inputs input {
+    display: none;
+}
