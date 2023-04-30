@@ -15,7 +15,7 @@ export const create = (elementName, options) => {
 
 export const qs = selector => {
   const query = document.querySelectorAll(selector);
-  if (query.length === 0) return undefined;
+  if (query.length === 0) return null;
   if (query.length === 1) return query[0];
   if (query.length >   1) return Array.from(query);
 }
