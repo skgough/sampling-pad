@@ -1,8 +1,8 @@
-import { knownElementTypes } from "./enums";
+import { KnownElementTypes } from "./enums";
 import { HTMLUnknownElementError } from "./classes";
 
 export const create = (elementName, options) => {
-  if (knownElementTypes.includes(elementName)) {
+  if (KnownElementTypes.includes(elementName)) {
     const element = document.createElement(elementName);
     Object.entries(options).forEach(([prop, value]) => {
       element[prop] = value

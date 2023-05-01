@@ -1,4 +1,4 @@
-export const knownElementTypes = [
+export const KnownElementTypes = [
     "a", "abbr", "acronym", "address", "applet", "area", "article", "aside", 
     "audio", "b", "base", "bdi", "bdo", "bgsound", "big", "blink", "blockquote", 
     "body", "br", "button", "canvas", "caption", "center", "cite", "code", "col", 
