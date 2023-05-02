@@ -32,6 +32,8 @@ body { margin: 0 }
     border: 0;
     position: relative;
     box-shadow: 0 .15rem .75rem #111;
+    touch-action: none;
+    user-select: none;
 }
 .pad > button::before {
     position: absolute;
